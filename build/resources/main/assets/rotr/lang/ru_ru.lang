@@ -1,0 +1,42 @@
+menu.Mainmenu=Главное меню
+menu.Server=Войти в ROTR
+menu.Music=Музыка и звуки
+menu.Title=Меню
+menu.Done=Назад
+menu.graphic=Графика
+menu.Settings=Настройки
+menu.Connect=Подключение ко вселенной ROTR
+menu.AvatarMenu=Меню Аватара
+menu.chatsettings=Настройки чата
+menu.Single=Войти в свой мир
+menu.performance=Производительность
+menu.Skin=
+menu.Control=Управление
+menu.Disconnect=Отключиться от ROTR
+menu.Exit=Выйти из симулятора
+menu.Continue=Продолжить
+menu.Map=Карта вселенной
+menu.goto=Отправиться в
+menu.mgame.start=Начать
+menu.mgame.rewand=Награда:
+manu.mgame.howplay=Как играть:
+
+PlayerControl=Управление аватаром
+
+game.Constructor=Конструктор
+game.chatr=шепчет вам
+game.chatn=Вы
+game.chatc=Чаты:
+game.cchat=Выберите пользователя:
+
+key.voicechat=Говорить
+key.send=Отправить
+key.categories.rotr=ROTR
+
+setting.categories.main=Основное
+setting.categories.display=Экран
+setting.categories.detals=Детализация
+setting.categories.effect=Эффекты
+setting.categories.other=Прочее
+
+block.rotrportal=Портал ROTR

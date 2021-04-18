@@ -1,0 +1,148 @@
+Unsupposrted library path: D:\ROTR\Mod\build\classes\api
+Unsupposrted library path: D:\ROTR\Mod\build\resources\api
+Symbol range map extraction starting
+Processing 47 files
+startProcessing "com/tterrag/blur/Blur.java" md5: 184e81961803f6a10887e2c2b7dbbe41
+endProcessing "com/tterrag/blur/Blur.java"
+
+startProcessing "com/tterrag/blur/BlurPlugin.java" md5: 4d682d29beaf76dc5de89d95e611761a
+endProcessing "com/tterrag/blur/BlurPlugin.java"
+
+startProcessing "com/tterrag/blur/BlurTransformer.java" md5: f63b0d8378467c3b0b4bd26a7548eb03
+endProcessing "com/tterrag/blur/BlurTransformer.java"
+
+startProcessing "com/tterrag/blur/config/BlurConfigGui.java" md5: 96fd5a1b70f41414ed64392459c79c84
+    Compile Error! Pb(1102) At least one of the problems in category 'unused' is not analysed due to a compiler option being ignored
+    Compile Error! Pb(1102) At least one of the problems in category 'null' is not analysed due to a compiler option being ignored
+endProcessing "com/tterrag/blur/config/BlurConfigGui.java"
+
+startProcessing "com/tterrag/blur/config/BlurGuiFactory.java" md5: 86a6514eaa648844ee896fc2daa2137b
+endProcessing "com/tterrag/blur/config/BlurGuiFactory.java"
+
+startProcessing "com/tterrag/blur/util/ShaderResourcePack.java" md5: cd83f931fc97776b829584a78c505c74
+    Compile Error! Pb(1102) At least one of the problems in category 'null' is not analysed due to a compiler option being ignored
+endProcessing "com/tterrag/blur/util/ShaderResourcePack.java"
+
+startProcessing "net/jekruy/rotr/ClientProxyROTR.java" md5: 0f62dceaf4f845649cc773536d9d2b44
+endProcessing "net/jekruy/rotr/ClientProxyROTR.java"
+
+startProcessing "net/jekruy/rotr/ElementsROTR.java" md5: b4e7740ecda9c1299835f396bd8084d3
+endProcessing "net/jekruy/rotr/ElementsROTR.java"
+
+startProcessing "net/jekruy/rotr/FPHR.java" md5: b7fa1f4f03c0213cef8c18bb29de0a82
+endProcessing "net/jekruy/rotr/FPHR.java"
+
+startProcessing "net/jekruy/rotr/GetChat.java" md5: 4a98f6f75ae29dd9700980b0cf042ffd
+endProcessing "net/jekruy/rotr/GetChat.java"
+
+startProcessing "net/jekruy/rotr/IProxyROTR.java" md5: 8cda6653310c99e09bcfe426cf1b9bac
+endProcessing "net/jekruy/rotr/IProxyROTR.java"
+
+startProcessing "net/jekruy/rotr/OpenGUI.java" md5: 55f42fa28ba6573354cd8c80f0725f9f
+endProcessing "net/jekruy/rotr/OpenGUI.java"
+
+startProcessing "net/jekruy/rotr/ROTR.java" md5: b7e8a2512c50806b902e6fa94af16844
+endProcessing "net/jekruy/rotr/ROTR.java"
+
+startProcessing "net/jekruy/rotr/ROTRVariables.java" md5: 5e51d77b48551b5277bf76d9ea693831
+endProcessing "net/jekruy/rotr/ROTRVariables.java"
+
+startProcessing "net/jekruy/rotr/ServerProxyROTR.java" md5: b9a4e67a59dd26e4c63ffda2daad9d60
+endProcessing "net/jekruy/rotr/ServerProxyROTR.java"
+
+startProcessing "net/jekruy/rotr/block/InitBlock.java" md5: 74207936a4e4a8e5e0aaf7f3a4450a98
+endProcessing "net/jekruy/rotr/block/InitBlock.java"
+
+startProcessing "net/jekruy/rotr/block/rotrPortalBlock.java" md5: 77fb36412c3770ec42067eaffe2a992b
+endProcessing "net/jekruy/rotr/block/rotrPortalBlock.java"
+
+startProcessing "net/jekruy/rotr/chat/GuiChatROTR.java" md5: 39f4b647d9aefcda96dca60f4ece5fce
+endProcessing "net/jekruy/rotr/chat/GuiChatROTR.java"
+
+startProcessing "net/jekruy/rotr/chat/GuiCreateChatROTR.java" md5: 8efd1d09e3938d8a9977fe7fa93a32cc
+endProcessing "net/jekruy/rotr/chat/GuiCreateChatROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiButtonROTR.java" md5: f908b34422de2cc7a5576779d1be66b8
+endProcessing "net/jekruy/rotr/gui/GuiButtonROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiConnectingROTR.java" md5: 8bb023bc3f14eef02189ca1366c39709
+endProcessing "net/jekruy/rotr/gui/GuiConnectingROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiContainerROTR.java" md5: 56fc6eab62d90d2292760b2a92320d00
+endProcessing "net/jekruy/rotr/gui/GuiContainerROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiCraftingROTR.java" md5: bdf2bd92f97bf0e8659a0aba260b0fef
+endProcessing "net/jekruy/rotr/gui/GuiCraftingROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiDTROTR.java" md5: 47cd50e35821d7bfbe59ba6035512b39
+endProcessing "net/jekruy/rotr/gui/GuiDTROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiGOverROTR.java" md5: efa9322f200eddd6846e28d939ebd7c0
+endProcessing "net/jekruy/rotr/gui/GuiGOverROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiInventoryROTR.java" md5: df0fa002021e0da489d810c847d70209
+endProcessing "net/jekruy/rotr/gui/GuiInventoryROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiKeyBindingListROTR.java" md5: 70a046d8cc5170016575e5ea547c21fd
+endProcessing "net/jekruy/rotr/gui/GuiKeyBindingListROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiLabelROTR.java" md5: df6e88fd7dd9184511a673407d2a3a83
+endProcessing "net/jekruy/rotr/gui/GuiLabelROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiListExtendedROTR.java" md5: b5dcc294bf863d5fa282c18cd25ce9ec
+endProcessing "net/jekruy/rotr/gui/GuiListExtendedROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiMainMenuROTR.java" md5: 1eb4e527211b2fde5110d4df617663d7
+endProcessing "net/jekruy/rotr/gui/GuiMainMenuROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiOptionButtonROTR.java" md5: 996d9f0c162e2f15495a0e3029414470
+endProcessing "net/jekruy/rotr/gui/GuiOptionButtonROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiOptionROTR.java" md5: f50679685abd8e111cf8d2442e01da3f
+endProcessing "net/jekruy/rotr/gui/GuiOptionROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiOptionSliderROTR.java" md5: 1fc79ad132e289316be01bd5ac95fc33
+endProcessing "net/jekruy/rotr/gui/GuiOptionSliderROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiOptionsRowListROTR.java" md5: ea653bbe44a0ce112e3eb6dcea0ea889
+endProcessing "net/jekruy/rotr/gui/GuiOptionsRowListROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiPauseROTR.java" md5: f67dfe90e46fd42ab4c8b3d36a4b5d13
+endProcessing "net/jekruy/rotr/gui/GuiPauseROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiScreenROTR.java" md5: a1fe0fb4764ca35b33825a6c3e547ad4
+endProcessing "net/jekruy/rotr/gui/GuiScreenROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiSlotROTR.java" md5: 4db4d2b74a95b9726461e0f626eeee23
+endProcessing "net/jekruy/rotr/gui/GuiSlotROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/GuiTextFieldROTR.java" md5: bef548492fd58c4179d891b0bb86f01d
+endProcessing "net/jekruy/rotr/gui/GuiTextFieldROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/InventoryEffectRendererROTR.java" md5: 1145aa567c395d8f366a111372318d4a
+endProcessing "net/jekruy/rotr/gui/InventoryEffectRendererROTR.java"
+
+startProcessing "net/jekruy/rotr/gui/StartMGame.java" md5: 1de1b2b7508382b71ed11e0c9e4486aa
+endProcessing "net/jekruy/rotr/gui/StartMGame.java"
+
+startProcessing "net/jekruy/rotr/gui/overlay/OverlayHUDGUI.java" md5: 3d1911b26b876b616610a959617eab09
+endProcessing "net/jekruy/rotr/gui/overlay/OverlayHUDGUI.java"
+
+startProcessing "net/jekruy/rotr/item/InitItem.java" md5: c4635eea96bbbd5978e9030721698409
+endProcessing "net/jekruy/rotr/item/InitItem.java"
+
+startProcessing "net/jekruy/rotr/item/rotrPortalItem.java" md5: 4ee562a1212c93ee821f604abceb1d33
+endProcessing "net/jekruy/rotr/item/rotrPortalItem.java"
+
+startProcessing "net/jekruy/rotr/keybind/KeyInputHandler.java" md5: 6a64740632e61582483061ee701b5e11
+endProcessing "net/jekruy/rotr/keybind/KeyInputHandler.java"
+
+startProcessing "net/jekruy/rotr/keybind/Keybinds.java" md5: adca421c3be7727c2ecbc7710c25496d
+endProcessing "net/jekruy/rotr/keybind/Keybinds.java"
+
+startProcessing "net/jekruy/rotr/procedure/ProcedureOpenWorld.java" md5: 02a0ac3fa99125816f3dcbe30d36bdd9
+endProcessing "net/jekruy/rotr/procedure/ProcedureOpenWorld.java"
+
+startProcessing "net/jekruy/rotr/util/TDW.java" md5: 8c183cc7bf030f20680a48eb8c45b24f
+endProcessing "net/jekruy/rotr/util/TDW.java"
+

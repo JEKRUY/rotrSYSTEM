@@ -1,0 +1,29 @@
+{
+  "spawn": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rotr:spawning",
+        "stream": false
+      }
+    ]
+  },
+  "startplayer": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rotr:startplayer",
+        "stream": false
+      }
+    ]
+  },
+  "openui": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "rotr:openui",
+        "stream": false
+      }
+    ]
+  }
+}
