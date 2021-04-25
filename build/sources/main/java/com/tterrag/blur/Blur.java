@@ -34,7 +34,6 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import net.minecraftforge.fml.common.gameevent.TickEvent.RenderTickEvent;
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 @Mod(modid = MODID, name = MOD_NAME, version = VERSION, acceptedMinecraftVersions = "[1.9, 1.13)", clientSideOnly = true, guiFactory = "com.tterrag.blur.config.BlurGuiFactory")
 public class Blur {
@@ -62,8 +61,8 @@ public class Blur {
     
     @SuppressWarnings("unchecked")
     public Blur() {
-    	//((List<IResourcePack>)ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "field_110449_ao")).add(dummyPack);
-    	((List<IResourcePack>)ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "defaultResourcePacks")).add(dummyPack);
+    	((List<IResourcePack>)ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "field_110449_ao")).add(dummyPack);
+    	//((List<IResourcePack>)ObfuscationReflectionHelper.getPrivateValue(Minecraft.class, Minecraft.getMinecraft(), "defaultResourcePacks")).add(dummyPack);
     }
     
     @EventHandler
@@ -117,8 +116,8 @@ public class Blur {
     @SubscribeEvent
     public void onGuiChange(GuiOpenEvent event) {
         if (_listShaders == null) {
-        	//_listShaders = ObfuscationReflectionHelper.findField(ShaderGroup.class, "field_148031_d");
-        	_listShaders = ObfuscationReflectionHelper.findField(ShaderGroup.class, "listShaders");
+        	_listShaders = ObfuscationReflectionHelper.findField(ShaderGroup.class, "field_148031_d");
+        	//_listShaders = ObfuscationReflectionHelper.findField(ShaderGroup.class, "listShaders");
         }
         if (Minecraft.getMinecraft().world != null) {
             EntityRenderer er = Minecraft.getMinecraft().entityRenderer;

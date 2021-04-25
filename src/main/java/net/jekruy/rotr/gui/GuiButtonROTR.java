@@ -9,11 +9,12 @@ import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.util.ResourceLocation;
 
+import java.awt.*;
+
 public class GuiButtonROTR extends Gui
 {
     protected static final ResourceLocation BUTTON_TEXTURES = new ResourceLocation("rotr:textures/button.png");
     protected static final ResourceLocation TYPE_TEXTURES = new ResourceLocation("rotr:textures/buttonscroll.png");
-    protected static final ResourceLocation CLEAR_TEXTURES = new ResourceLocation("textures/gui/options_background.png");
 
     protected boolean texture;
     /** Button width in pixels */
@@ -93,23 +94,23 @@ public class GuiButtonROTR extends Gui
         if (this.visible)
         {
             FontRenderer fontrenderer = mc.fontRenderer;
-            if (this.texture) {
-            	if (this.typeTexture) {
-            		mc.getTextureManager().bindTexture(BUTTON_TEXTURES);
-            	} else {
-            		mc.getTextureManager().bindTexture(TYPE_TEXTURES);
-            	}
-            }else {
-            	mc.getTextureManager().bindTexture(CLEAR_TEXTURES);
-            }
             GlStateManager.color(1.0F, 1.0F, 1.0F, 1.0F);
             this.hovered = mouseX >= this.x && mouseY >= this.y && mouseX < this.x + this.width && mouseY < this.y + this.height;
             int i = this.getHoverState(this.hovered);
-            GlStateManager.enableBlend();
-            GlStateManager.tryBlendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
-            GlStateManager.blendFunc(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA);
-            this.drawTexturedModalRect(this.x, this.y, 0, 46 + i * 14, this.width / 2, this.height);
-            this.drawTexturedModalRect(this.x + this.width / 2, this.y, 200 - this.width / 2, 46 + i * 14, this.width / 2, this.height);
+            if (this.texture) {
+                if (this.typeTexture) {
+                    mc.getTextureManager().bindTexture(BUTTON_TEXTURES);
+                } else {
+                    mc.getTextureManager().bindTexture(TYPE_TEXTURES);
+                }
+                GlStateManager.enableBlend();
+                GlStateManager.tryBlendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
+                GlStateManager.blendFunc(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA);
+                this.drawTexturedModalRect(this.x, this.y, 0, 46 + i * 14, this.width / 2, this.height);
+                this.drawTexturedModalRect(this.x + this.width / 2, this.y, 200 - this.width / 2, 46 + i * 14, this.width / 2, this.height);
+            } else {
+                //this.drawRect(this.x, this.y, this.x + this.width, this.y + this.height, new Color(255, 0, 0).getRGB());
+            }
             this.mouseDragged(mc, mouseX, mouseY);
             int j = this.colorText;
 

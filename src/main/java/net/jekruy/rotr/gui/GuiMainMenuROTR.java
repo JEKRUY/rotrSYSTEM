@@ -36,7 +36,7 @@ public class GuiMainMenuROTR extends GuiScreenROTR {
 		int guiLeft = this.width / 2;
 		int guiTop = this.height / 2;
 		GL11.glEnable(GL11.GL_BLEND);
-		GL11.glBlendFunc (GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
+		GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE_MINUS_SRC_ALPHA);
 		this.drawDefaultBackground();
 		Minecraft.getMinecraft().renderEngine.bindTexture(new ResourceLocation("rotr:textures/background.png"));
 		Gui.drawModalRectWithCustomSizedTexture(0, 0, 0, 0, this.width, this.height, this.width, this.height);
@@ -60,7 +60,6 @@ public class GuiMainMenuROTR extends GuiScreenROTR {
 		if (button.id == 2) {
 			{
 				mc.displayGuiScreen(new GuiOptionROTR(this, mc.gameSettings));
-				System.out.println("TEST");				
 			}
 		}
 		if (button.id == 3) {

@@ -1,8 +1,8 @@
-Unsupposrted library path: D:\ROTR\Mod\build\classes\api
-Unsupposrted library path: D:\ROTR\Mod\build\resources\api
+Unsupposrted library path: D:\docs\GitHub\rotrSYSTEM\build\classes\api
+Unsupposrted library path: D:\docs\GitHub\rotrSYSTEM\build\resources\api
 Symbol range map extraction starting
 Processing 47 files
-startProcessing "com/tterrag/blur/Blur.java" md5: 184e81961803f6a10887e2c2b7dbbe41
+startProcessing "com/tterrag/blur/Blur.java" md5: 32481a4adaee787d0e8623e2e1b666ce
 endProcessing "com/tterrag/blur/Blur.java"
 
 startProcessing "com/tterrag/blur/BlurPlugin.java" md5: 4d682d29beaf76dc5de89d95e611761a

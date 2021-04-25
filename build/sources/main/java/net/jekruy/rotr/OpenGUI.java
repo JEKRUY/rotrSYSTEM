@@ -93,7 +93,7 @@ public class OpenGUI{
 		Display.setTitle("Replace of the Reality");
 		File icon = Paths.get("%appdata%\\Replace of the Reality\\updates\\Client\\resources\\rotr\\icon.png").toFile();
 		try {
-			Display.setIcon(new ByteBuffer[]{ loadIcon(icon)});
+			Display.setIcon(new ByteBuffer[]{loadIcon(icon)});
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
